@@ -3,14 +3,22 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+=======
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+>>>>>>> 0340374f1783acce72efc727c2816511dd6510dc
     <ProjectGuid>{7856E00A-7DEC-A2D8-F123-E5B8539225EC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
+<<<<<<< HEAD
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+=======
+>>>>>>> 0340374f1783acce72efc727c2816511dd6510dc
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
   </PropertyGroup>
@@ -34,6 +42,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+<<<<<<< HEAD
     <Reference Include="System.XML" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -67,6 +76,41 @@
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
+=======
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Common\HiScoreManager.cs" />
+    <Compile Include="Assets\Scripts\GameScene\BallController.cs" />
+    <Compile Include="Assets\Scripts\GameScene\BrightnessRegulator.cs" />
+    <Compile Include="Assets\Scripts\GameScene\CloudController.cs" />
+    <Compile Include="Assets\Scripts\GameScene\FripperController.cs" />
+    <Compile Include="Assets\Scripts\GameScene\FripperTapCOntroller.cs" />
+    <Compile Include="Assets\Scripts\GameScene\RestartButtonController.cs" />
+    <Compile Include="Assets\Scripts\GameScene\ReturnButtonController.cs" />
+    <Compile Include="Assets\Scripts\GameScene\ScoreController.cs" />
+    <Compile Include="Assets\Scripts\GameScene\StarController.cs" />
+    <Compile Include="Assets\Scripts\TitleScene\EndButtonController.cs" />
+    <Compile Include="Assets\Scripts\TitleScene\HiScoreController.cs" />
+    <Compile Include="Assets\Scripts\TitleScene\StartButtonController.cs" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\GUISystem\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\Networking\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:\Program Files\Unity\Editor\Data\UnityExtensions\Unity\UnityAnalytics\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+>>>>>>> 0340374f1783acce72efc727c2816511dd6510dc
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -76,5 +120,8 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+<<<<<<< HEAD
   
+=======
+>>>>>>> 0340374f1783acce72efc727c2816511dd6510dc
 </Project>
